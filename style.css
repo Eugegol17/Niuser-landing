@@ -445,15 +445,26 @@ a {
 /* Responsive */
 @media (max-width: 768px) {
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.1rem; /* Smaller to fit single line or two nice lines */
   }
 
   .hero-actions {
     flex-direction: column;
+  }
+  
+  .btn-hero {
+    font-size: 0.95rem; /* Prevent text wrap on small screens like Realme GT 7 */
+    padding: 1rem 1.5rem;
+    white-space: nowrap; /* Force single line */
+  }
+
+  .cta-content h2 {
+    font-size: 2rem; /* Scale down CTA title */
   }
 
   .container {
     padding: 0 1.5rem;
   }
 }
+
 
