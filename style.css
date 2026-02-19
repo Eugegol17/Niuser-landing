@@ -374,6 +374,7 @@ a {
   text-align: center;
   position: relative;
   overflow: hidden;
+  scroll-margin-top: calc(var(--header-height) - 1px);
 }
 
 .cta-content {
