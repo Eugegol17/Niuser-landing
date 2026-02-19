@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Niuser - Cirugía Plástica. Resuelve tus dudas sobre consultas, operaciones y pagos."
+    />
+    <title>Niuser - Preguntas Frecuentes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="container header-content">
+          <a href="#" class="logo">
+            <img src="./niuser-logo.png" alt="Niuser Logo" />
+          </a>
+          <nav>
+            <a href="https://wa.me/1234567890" class="btn btn-primary"
+              >Contactar</a
+            >
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="container hero-content">
+            <h1 class="hero-title">
+              Tu transformación comienza con
+              <span class="text-gradient">seguridad</span>
+            </h1>
+            <p class="hero-subtitle">
+              Resolvemos todas tus dudas para que tomes la mejor decisión con
+              total confianza.
+            </p>
+            <div class="hero-actions">
+              <a href="#faq" class="btn btn-secondary">Ver Preguntas</a>
+              <a href="#contact" class="btn btn-outline">Contáctanos</a>
+            </div>
+          </div>
+          <div class="hero-background"></div>
+        </section>
+
+        <!-- FAQ Navigation -->
+        <div class="faq-nav-container">
+          <div class="container">
+            <nav class="faq-nav" id="faq-nav">
+              <button class="faq-nav-item active" data-category="all">
+                Todas
+              </button>
+              <button class="faq-nav-item" data-category="consulta">
+                Consulta
+              </button>
+              <button class="faq-nav-item" data-category="operacion">
+                Operación
+              </button>
+              <button class="faq-nav-item" data-category="recuperacion">
+                Recuperación
+              </button>
+              <button class="faq-nav-item" data-category="pagos">Pagos</button>
+            </nav>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+          <div class="container">
+            <div class="faq-grid" id="faq-grid">
+              <!-- FAQ Items will be injected here via JS -->
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contact" class="cta-section">
+          <div class="container cta-content">
+            <h2>¿Aún tienes dudas?</h2>
+            <p>
+              Nuestro equipo médico está listo para atenderte personalmente.
+            </p>
+            <a href="https://wa.me/1234567890" class="btn btn-light"
+              >Hablar por WhatsApp</a
+            >
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-content">
+          <div class="footer-brand">
+            <span class="logo">Niuser</span>
+            <p>Excelencia en cirugía plástica.</p>
+          </div>
+          <div class="footer-links">
+            <a href="#">Aviso de Privacidad</a>
+            <a href="#">Términos y Condiciones</a>
+          </div>
+          <div class="footer-copy">
+            &copy; 2026 Niuser. Todos los derechos reservados.
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
