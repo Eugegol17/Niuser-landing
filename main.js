@@ -13,6 +13,18 @@ const faqs = [
   },
   {
     category: "indicaciones",
+    isModal: true,
+    buttonText: "Indicaciones previas: Facial",
+    modalId: "modal-facial"
+  },
+  {
+    category: "indicaciones",
+    isModal: true,
+    buttonText: "Indicaciones previas: Contorno corporal",
+    modalId: "modal-contorno"
+  },
+  {
+    category: "indicaciones",
     question: "¿Con cuánto tiempo de anticipación debo iniciar mi preparación antes del procedimiento?",
     answer:
       "Te sugerimos iniciar tu protocolo médico al menos 15 días antes. Esto incluye realizar tus estudios de laboratorio, suspender medicamentos específicos si el doctor lo indica y mantener una dieta equilibrada.",
@@ -128,24 +140,48 @@ document.addEventListener("DOMContentLoaded", () => {
 
     filteredFaqs.forEach((faq, index) => {
       const faqEl = document.createElement("div");
-      faqEl.className = "faq-item";
-      faqEl.innerHTML = `
-        <button class="faq-question" aria-expanded="false">
-          ${faq.question}
-          <i data-lucide="chevron-down" class="faq-icon"></i>
-        </button>
-        <div class="faq-answer">
-          <div class="faq-answer-content">
-            ${faq.answer}
+
+      if (faq.isModal) {
+        faqEl.className = "faq-modal-container";
+        faqEl.innerHTML = `
+          <button class="btn-modal-trigger" data-modal="${faq.modalId}">
+            ${faq.buttonText}
+            <i data-lucide="file-text" class="btn-icon"></i>
+          </button>
+        `;
+        faqGrid.appendChild(faqEl);
+
+        const btn = faqEl.querySelector(".btn-modal-trigger");
+        btn.addEventListener("click", () => {
+          const modal = document.getElementById(faq.modalId);
+          if (modal) {
+            modal.classList.add("show");
+            const modalContent = modal.querySelector('.modal-content');
+            if (modalContent) {
+              modalContent.scrollTop = 0;
+            }
+          }
+        });
+      } else {
+        faqEl.className = "faq-item";
+        faqEl.innerHTML = `
+          <button class="faq-question" aria-expanded="false">
+            ${faq.question}
+            <i data-lucide="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              ${faq.answer}
+            </div>
           </div>
-        </div>
-      `;
-
-      faqGrid.appendChild(faqEl);
-
-      // Add event listener
-      const questionBtn = faqEl.querySelector(".faq-question");
-      questionBtn.addEventListener("click", () => toggleAccordion(faqEl));
+        `;
+  
+        faqGrid.appendChild(faqEl);
+  
+        // Add event listener
+        const questionBtn = faqEl.querySelector(".faq-question");
+        questionBtn.addEventListener("click", () => toggleAccordion(faqEl));
+      }
     });
 
     // Re-initialize icons
@@ -184,4 +220,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initial Render
   renderFAQs();
+
+  // Modal Close Logic
+  const closeBtns = document.querySelectorAll(".modal-close");
+  closeBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      btn.closest(".modal").classList.remove("show");
+    });
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target.classList.contains("modal")) {
+      e.target.classList.remove("show");
+    }
+  });
 });
