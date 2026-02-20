@@ -1,36 +1,36 @@
 const faqs = [
   {
-    category: "consulta",
-    question: "¿La consulta inicial tiene costo?",
+    category: "valoración",
+    question: "¿La valoración inicial tiene costo?",
     answer:
       "Sí, la consulta inicial tiene un costo de recuperación. Sin embargo, si decides programar tu cirugía con nosotros, este monto se bonifica al total de tu procedimiento.",
   },
   {
-    category: "consulta",
+    category: "valoración",
     question: "¿Qué incluye la valoración inicial?",
     answer:
       "Incluye una evaluación física detallada, discusión de tus objetivos, explicación del procedimiento sugerido, análisis de riesgos y beneficios, y un presupuesto personalizado.",
   },
   {
-    category: "operacion",
+    category: "cirugía",
     question: "¿En qué clínicas operan?",
     answer:
       "Operamos únicamente en hospitales certificados que cuentan con todas las normas de seguridad y terapia intensiva para garantizar tu bienestar.",
   },
   {
-    category: "operacion",
+    category: "cirugía",
     question: "¿Qué tipo de anestesia utilizan?",
     answer:
       "Depende del procedimiento. Puede ser anestesia local con sedación, bloqueo regional o anestesia general. Todo esto se define en tu valoración con el anestesiólogo.",
   },
   {
-    category: "recuperacion",
+    category: "post-cirugía",
     question: "¿Cuánto tiempo de recuperación necesito?",
     answer:
       "El tiempo varía por procedimiento. Generalmente recomendamos de 7 a 14 días de reposo relativo antes de volver a actividades de oficina, y 4 a 6 semanas para ejercicio intenso.",
   },
   {
-    category: "recuperacion",
+    category: "post-cirugía",
     question: "¿Incluyen las fajas y medicamentos?",
     answer:
       "Las prendas postquirúrgicas de primera etapa están incluidas en tu paquete. Los medicamentos se recetan y se adquieren por separado en la farmacia de tu preferencia.",
@@ -48,7 +48,7 @@ const faqs = [
       "Sí, contamos con promociones de meses sin intereses con tarjetas participantes. Consulta las promociones vigentes con nuestro equipo de ventas.",
   },
   {
-    category: "consulta",
+    category: "valoración",
     question: "¿Puedo hacer una valoración en línea?",
     answer:
       "Sí, ofrecemos video-consultas para pacientes foráneos. Aunque para el plan quirúrgico definitivo, es necesaria una revisión presencial antes de la cirugía.",
