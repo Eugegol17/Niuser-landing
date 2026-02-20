@@ -12,6 +12,18 @@ const faqs = [
       "Incluye una evaluación física detallada, discusión de tus objetivos, explicación del procedimiento sugerido, análisis de riesgos y beneficios, y un presupuesto personalizado.",
   },
   {
+    category: "indicaciones",
+    question: "¿Con cuánto tiempo de anticipación debo iniciar mi preparación antes del procedimiento?",
+    answer:
+      "Te sugerimos iniciar tu protocolo médico al menos 15 días antes. Esto incluye realizar tus estudios de laboratorio, suspender medicamentos específicos si el doctor lo indica y mantener una dieta equilibrada.",
+  },
+  {
+    category: "indicaciones",
+    question: "¿Qué elementos es indispensable que lleve conmigo el día programado?",
+    answer:
+      "Para tu mayor comodidad, recomendamos llevar ropa holgada y fácil de poner (preferentemente abotonada al frente), calzado cómodo, tu identificación oficial y todo el expediente de estudios médicos impreso.",
+  },
+  {
     category: "cirugía",
     question: "¿En qué clínicas operan?",
     answer:
@@ -34,6 +46,54 @@ const faqs = [
     question: "¿Incluyen las fajas y medicamentos?",
     answer:
       "Las prendas postquirúrgicas de primera etapa están incluidas en tu paquete. Los medicamentos se recetan y se adquieren por separado en la farmacia de tu preferencia.",
+  },
+  {
+    category: "casarecuperacion",
+    question: "¿Tienen casa de recuperación?",
+    answer:
+      "Sí, contamos con una exclusiva casa de recuperación diseñada especialmente para tu confort postoperatorio, equipada con todas las comodidades y atención profesional 24/7.",
+  },
+  {
+    category: "casarecuperacion",
+    question: "¿Qué incluye la estancia en la casa de recuperación?",
+    answer:
+      "Nuestra estancia incluye hospedaje premium, alimentación balanceada especializada, asistencia de enfermería 24 horas, lavandería básica y traslado a tus consultas de revisión.",
+  },
+  {
+    category: "fajas",
+    question: "¿Cuáles son las fajas recomendadas?",
+    answer:
+      "Tras la cirugía necesitas prendas de compresión de grado médico. Nosotros proporcionamos tu faja de primera etapa, diseñadas para amoldarse a tu nueva figura y facilitar el drenaje.",
+  },
+  {
+    category: "fajas",
+    question: "¿Venden fajas adicionales o de segunda etapa?",
+    answer:
+      "Sí, en nuestras instalaciones y tienda puedes adquirir fajas de segunda etapa, fajas reloj de arena, tablas abdominales y espumas especiales para continuar esculpiendo tu figura.",
+  },
+  {
+    category: "spa",
+    question: "¿Manejan paquetes de masajes de drenaje linfático?",
+    answer:
+      "Sí, nuestro Spa Postquirúrgico ofrece paquetes especializados de drenaje linfático, ultrasonido y terapias combinadas esenciales para reducir la inflamación y prevenir fibrosis.",
+  },
+  {
+    category: "spa",
+    question: "¿Cuándo debo empezar los masajes post-operatorios?",
+    answer:
+      "Generalmente recomendamos iniciar el drenaje linfático entre el segundo y cuarto día después de la cirugía, siempre y cuando tu cirujano lo autorice y según tu evolución personal.",
+  },
+  {
+    category: "directorio",
+    question: "¿Dónde me recomiendan realizar mis estudios preoperatorios para que sean confiables?",
+    answer:
+      "Para mayor certeza en tus resultados, contamos con un directorio de laboratorios y centros de imagenología de alta confianza que sugerimos a nuestros pacientes, algunos de los cuales ofrecen ventajas o tarifas preferenciales si mencionas que vienes de nuestra parte.",
+  },
+  {
+    category: "directorio",
+    question: "¿Con qué especialista puedo acudir si requiero una valoración médica adicional (ej. cardiológica)?",
+    answer:
+      "Si durante tu evaluación inicial detectamos que necesitas el visto bueno de otro profesional, te compartiremos nuestro listado de especialistas médicos sugeridos (cardiólogos, internistas, etc.) en los que confiamos plenamente para complementar tu cuidado.",
   },
   {
     category: "pagos",
