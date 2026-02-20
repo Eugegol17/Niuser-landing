@@ -14,13 +14,13 @@ const faqs = [
   {
     category: "indicaciones",
     isModal: true,
-    buttonText: "Indicaciones previas: Facial",
+    buttonText: "Indicaciones previas a tu cirugía: Facial",
     modalId: "modal-facial"
   },
   {
     category: "indicaciones",
     isModal: true,
-    buttonText: "Indicaciones previas: Contorno corporal",
+    buttonText: "Indicaciones previas a tu cirugía: Contorno corporal",
     modalId: "modal-contorno"
   },
   {
