@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Preguntas Frecuentes - Niuser."
+    />
+    <title>Niuser - Preguntas Frecuentes</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @media (max-width: 768px) {
+        .header-btn {
+          display: none !important;
+        }
+        .header-content {
+          justify-content: space-between !important;
+        }
+      }
+      
+      /* Sweep Hover Animation */
+      .btn-sweep {
+        position: relative;
+        overflow: hidden;
+      }
+      .btn-sweep::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.4),
+          transparent
+        );
+        transition: left 0.5s ease;
+      }
+      .btn-sweep:hover::after {
+        left: 100%;
+      }
+
+      /* Adjust anchor scroll offset for sticky elements */
+      #faq {
+        scroll-margin-top: 140px; /* Accounts for header + faq nav heights */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="container header-content">
+          <a href="#" class="logo-dos">
+            <img src="./doctor-logo.png" alt="Doctor Logo" />
+          </a>
+          <a href="#" class="logo">
+            <img src="./niuser-logo.png" alt="Niuser Logo" />
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="container hero-content">
+            <h1 class="hero-title">
+              Preguntas <span class="text-gradient">Frecuentes</span>
+            </h1>
+            <p class="hero-subtitle">
+              Encuentra respuestas a las dudas más comunes sobre nuestros procedimientos, indicaciones, y cuidados postoperatorios.
+            </p>
+            <div class="hero-actions">
+              <a href="#faq" class="btn btn-hero btn-sweep">
+                Ver preguntas
+                <i data-lucide="arrow-down"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-background"></div>
+        </section>
+
+        <!-- FAQ Navigation -->
+        <div class="faq-nav-container" id="faq-nav-container">
+          <div class="container">
+            <nav class="faq-nav" id="faq-nav">
+              <button class="faq-nav-item active" data-category="valoración">
+                Valoración
+              </button>
+              <button class="faq-nav-item" data-category="indicaciones">
+                Pre-Cirugía
+              </button>
+              <button class="faq-nav-item" data-category="cirugía">
+                Cirugía
+              </button>
+              <button class="faq-nav-item" data-category="post-cirugía">
+                Post-Cirugía
+              </button>
+              <button class="faq-nav-item" data-category="casarecuperacion">
+                Casa de Recuperación
+              </button>
+              <button class="faq-nav-item" data-category="fajas">
+                Fajas
+              </button>
+              <button class="faq-nav-item" data-category="spa">Spa</button>
+              <button class="faq-nav-item" data-category="directorio">
+                Directorio
+              </button>
+              <button class="faq-nav-item" data-category="pagos">Pagos</button>
+            </nav>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+          <div class="container">
+            <div class="faq-grid" id="faq-grid">
+              <!-- FAQ Items will be injected here via JS -->
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="cta-section">
+          <div class="container cta-content">
+            <h2>¿No encontraste lo que buscabas?</h2>
+            <p>Comunícate directamente con nuestro equipo de atención y resolveremos todas tus inquietudes de manera personalizada.</p>
+            <a href="#" class="btn btn-hero" style="background: var(--white); color: var(--primary); margin-top: 1rem;">
+              Contactar por WhatsApp
+              <i data-lucide="message-circle"></i>
+            </a>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- Modals -->
+      <div id="modal-facial" class="modal">
+        <div class="modal-content">
+          <button class="modal-close" aria-label="Cerrar">&times;</button>
+          <div class="modal-header">
+            <h3>Indicaciones previas a tu cirugía: Facial</h3>
+          </div>
+          <div class="modal-body">
+            <ol>
+              <li>No aplicar nada sobre rostro y cuello, acudir sin maquillaje, no cremas, no bloqueadores, no serum facial.</li>
+              <li>Retirar uñas acrílicas, sin esmalte de uñas, no aplicar nada sobre uñas de pies y manos.</li>
+              <li>Retirar lentes de contacto, pestañas mink, pestañas de tira, no aplicar gotas oftálmicas de ningún tipo.</li>
+              <li>No portar joyería o ningún tipo de piezas de metal (aretes, collares, pulseras). Si cuentas con piezas dentales removibles, informar al equipo médico y de enfermería.</li>
+              <li>No aplicar productos sobre el cabello (no spray, no acondicionadores, no shampoo en seco, no cremas para peinar, no gel, no cera para cabello, no aceites, no aplicar tratamientos de tintes ni alaciados 10 días previos a tu cirugía).</li>
+              <li>No utilizar perfumes, cremas ni aceites corporales, no aplicar desodorante en barra o spray.</li>
+              <li>No acudir al procedimiento con prendas que hayan sido lavadas con suavizantes o aromatizantes de telas.</li>
+              <li>No consumir bebidas alcohólicas por lo menos 2 semanas previas al procedimiento.</li>
+              <li>No fumar o exponerse a sitios con humo por lo menos 1-2 meses previos al procedimiento.</li>
+              <li>No consumir mariscos 1 semana antes de la cirugía.</li>
+            </ol>
+            <p class="modal-footer-text"><strong>Consultar al equipo Niuser ante cualquier duda respecto a los puntos antes ya mencionados.</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-contorno" class="modal">
+        <div class="modal-content">
+          <button class="modal-close" aria-label="Cerrar">&times;</button>
+          <div class="modal-header">
+            <h3>Indicaciones previas a tu cirugía: Contorno corporal</h3>
+          </div>
+          <div class="modal-body">
+            <ol>
+              <li>No existe restricción de algún alimento en específico.</li>
+              <li>No existe un régimen alimenticio o dieta (solo en el caso de aquellas pacientes cuyo índice de masa corporal supere el adecuado (debe ser IMC 29 como máximo) para la realización del procedimiento, en dicho caso se les orienta acudir con nutriólogo).</li>
+              <li>Evita consumir productos para bajar de peso (Herbalife, Omnilife o cualquier producto que no esté avalado por la FDA). Tampoco consumir herbolaria (té de manzanilla, cúrcuma, jengibre, árnica, etc.).</li>
+              <li>No consumir medicamentos para bajar de peso (Fentermina, Axion, semilla de mango africano o cualquier producto que no esté aprobado por la FDA) o suplementos como creatina, óxido nítrico, aminoácidos.</li>
+              <li>No utilizar anticonceptivos (orales, inyectados, parches, implante subdérmico).</li>
+              <li>No debes tomar ibuprofeno, indometacina, diclofenaco, aspirina, naproxeno.</li>
+              <li>No consumir bebidas alcohólicas por lo menos 2 semanas previas al procedimiento.</li>
+              <li>No fumar o exponerse a sitios con humo por lo menos 1-2 meses previos al procedimiento.</li>
+            </ol>
+            <p class="modal-footer-text"><strong>Consultar al equipo Niuser ante cualquier duda respecto a los puntos antes ya mencionados.</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container footer-content">
+          <div class="footer-brand">
+            <span class="logo" style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700;">Niuser</span>
+            <p>Excelencia en cirugía plástica.</p>
+          </div>
+          <div class="footer-links">
+            <a href="#">Aviso de Privacidad</a>
+            <a href="#">Términos y Condiciones</a>
+          </div>
+          <div class="footer-copy">
+            &copy; 2026 Niuser. Todos los derechos reservados.
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
