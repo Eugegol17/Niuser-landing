@@ -3,31 +3,31 @@ const faqs = [
     category: "valoración",
     question: "¿La valoración inicial tiene costo?",
     answer:
-      "Sí, la consulta inicial tiene un costo de recuperación. Sin embargo, si decides programar tu cirugía con nosotros, este monto se bonifica al total de tu procedimiento.",
+      "Sí, la consulta inicial tiene un costo. La realiza el Dr. Morán, cirujano plástico certificado.",
   },
   {
     category: "valoración",
     question: "¿Qué incluye la valoración inicial?",
     answer:
-      "Incluye una evaluación física detallada, discusión de tus objetivos, explicación del procedimiento sugerido, análisis de riesgos y beneficios, y un presupuesto personalizado.",
+      "Incluye una evaluación física y médica detallada, discusión de tus objetivos, explicación del procedimiento sugerido, análisis de riesgos y beneficios, y un presupuesto personalizado.",
   },
   {
     category: "valoración",
     question: "¿Puedo hacer una valoración en línea?",
     answer:
-      "Sí, ofrecemos video-consultas para pacientes foráneos. Aunque para el plan quirúrgico definitivo, es necesaria una revisión presencial antes de la cirugía.",
+      "Sí, ofrecemos videollamadas y valoraciones mediante fotografías para pacientes foráneos. A través de este medio es posible establecer el plan quirúrgico; posteriormente, se realizará una revisión presencial antes de la cirugía para afinar detalles y resolver cualquier duda.",
   },
   {
     category: "valoración",
     question: "¿Cuánto tiempo dura aproximadamente la consulta de valoración?",
     answer:
-      "La consulta suele durar entre 45 minutos y 1 hora. Durante este tiempo, el cirujano te escuchará, resolverá todas tus dudas y realizará una evaluación minuciosa para recomendarte el plan adecuado.",
+      "La consulta suele durar entre 20 y 30 minutos, aunque puede extenderse dependiendo de las dudas del paciente. Durante este tiempo, el cirujano te escuchará, resolverá tus inquietudes y realizará una evaluación minuciosa para recomendarte el plan más adecuado. Al pasar al área de exploración física, el doctor es asistido por personal de enfermería, garantizando en todo momento el absoluto respeto a tu privacidad e intimidad.",
   },
   {
     category: "valoración",
     question: "¿Puedo acudir acompañada a mi cita de valoración?",
     answer:
-      "Sí, eres bienvenida a venir con un acompañante si eso te hace sentir más cómoda. Nos importa que en todo momento te sientas segura y apoyada.",
+      "Sí, si te hace sentir más cómoda, eres bienvenida a asistir con un acompañante, quien deberá ser mayor de edad. Nos importa que en todo momento te sientas segura y apoyada.<br><br><span style=\"color: var(--accent); font-weight: 600;\">Nota: No se permiten niños, mascotas ni bebés.</span>",
   },
   {
     category: "indicaciones",
@@ -45,37 +45,37 @@ const faqs = [
     category: "indicaciones",
     question: "¿Con cuánto tiempo de anticipación debo iniciar mi preparación antes del procedimiento?",
     answer:
-      "Te sugerimos iniciar tu protocolo médico al menos 15 días antes. Esto incluye realizar tus estudios de laboratorio, suspender medicamentos específicos si el doctor lo indica y mantener una dieta equilibrada.",
+      "El protocolo médico de preparación inicia 3 meses antes de tu fecha de cirugía, siguiendo una serie de indicaciones específicas que te proporcionará nuestra área médica.",
   },
   {
     category: "indicaciones",
-    question: "¿Qué elementos es indispensable que lleve conmigo el día programado?",
+    question: "¿Qué elementos es indispensable que lleve conmigo el día de mi cirugía?",
     answer:
-      "Para tu mayor comodidad, recomendamos llevar ropa holgada y fácil de poner (preferentemente abotonada al frente), calzado cómodo, tu identificación oficial y todo el expediente de estudios médicos impreso.",
+      "Para tu mayor comodidad, recomendamos llevar ropa holgada y fácil de poner (preferentemente abotonada al frente), calzado cómodo, tu identificación oficial, tu kit de fajas, material de curación y las indicaciones de ingreso.",
   },
   {
     category: "indicaciones",
     question: "¿Debo suspender algún medicamento antes de la cirugía?",
     answer:
-      "Sí, debes suspender aspirinas, antiinflamatorios, anticonceptivos y cualquier suplemento o remedio herbolario al menos 15 días antes. En tu consulta te daremos una lista detallada de lo que debes evitar.",
+      "Sí, es vital suspender el consumo de cigarro, vaporizadores (vape) y marihuana 2 meses antes. Además, debes suspender aspirinas, antiinflamatorios, anticonceptivos, cualquier suplemento, medicamentos para bajar de peso, tés o remedios herbolarios al menos un mes antes. En tu consulta te entregaremos una lista detallada de todo lo que debes evitar para tu seguridad.",
   },
   {
     category: "indicaciones",
     question: "¿Es necesario estar en ayunas el día del procedimiento?",
     answer:
-      "Es indispensable presentarte con un ayuno estricto de 8 horas (sin consumir alimentos sólidos ni líquidos, ni siquiera agua). Esto es fundamental por protocolos de anestesia y seguridad.",
+      "Es indispensable presentarte con un ayuno estricto de 8 horas (esto significa no consumir alimentos sólidos ni líquidos; ni siquiera agua, chicles o pastillas tipo Halls). Este paso es fundamental por estándares de protocolo de anestesia y tu propia seguridad.",
   },
   {
     category: "indicaciones",
     question: "¿Qué pasa si me enfermo de gripe u otra infección antes de la fecha programada?",
     answer:
-      "Si presentas síntomas de gripe, tos, fiebre o cualquier infección en los días previos, debes notificar inmediatamente a nuestro equipo médico. Por tu seguridad, la cirugía podría reprogramarse hasta que estés completamente sana.",
+      "Si presentas síntomas de gripe, tos, fiebre o cualquier otra infección en los días previos, debes notificarlo inmediatamente a nuestro equipo médico. Ellos te indicarán cómo proceder. Es muy importante que, por favor, no te automediques bajo ninguna circunstancia.",
   },
   {
     category: "cirugía",
     question: "¿En qué clínicas operan?",
     answer:
-      "Operamos únicamente en hospitales certificados que cuentan con todas las normas de seguridad y terapia intensiva para garantizar tu bienestar.",
+      "Operamos únicamente en hospitales certificados que cuentan con todas las normas de seguridad y la capacidad médica necesaria para el manejo de emergencias, garantizando así tu bienestar integral.",
   },
   {
     category: "cirugía",
@@ -93,13 +93,13 @@ const faqs = [
     category: "cirugía",
     question: "¿El cirujano estará acompañado de otros especialistas?",
     answer:
-      "Absolutamente. Nuestro cirujano principal siempre está acompañado de un equipo multidisciplinario altamente calificado, que incluye anestesiólogo certificado, instrumentista y enfermeras circulantes.",
+      "Absolutamente. Nuestro cirujano principal siempre está acompañado de un equipo multidisciplinario altamente calificado, que incluye anestesiólogo certificado, médico ayudante, enfermera instrumentista y enfermeras circulantes.",
   },
   {
     category: "cirugía",
     question: "¿Qué sucede si hay una emergencia durante la operación?",
     answer:
-      "Al operar exclusivamente en hospitales certificados, contamos con todas las instalaciones necesarias (incluyendo terapia intensiva y banco de sangre) y un equipo médico preparado para manejar cualquier eventualidad y garantizar tu seguridad.",
+      "Al operar exclusivamente en hospitales certificados, contamos con todas las instalaciones hospitalarias necesarias (incluyendo terapia intensiva y banco de sangre) y un equipo médico completamente capacitado y preparado para manejar cualquier eventualidad, priorizando tu seguridad en todo momento.",
   },
   {
     category: "post-cirugía",
@@ -111,55 +111,55 @@ const faqs = [
     category: "post-cirugía",
     question: "¿Incluyen las fajas y medicamentos?",
     answer:
-      "Las prendas postquirúrgicas de primera etapa están incluidas en tu paquete. Los medicamentos se recetan y se adquieren por separado en la farmacia de tu preferencia.",
+      "No están incluidos, pero tenemos a la venta fajas y kits post-operatorios para garantizar que adquieras la prenda adecuada para tu recuperación, cumpliendo su función sin provocarte complicaciones. La receta médica es personalizada y se emite al momento de tu alta hospitalaria, por lo que los medicamentos deberán ser adquiridos por el paciente al salir del hospital.",
   },
   {
     category: "post-cirugía",
     question: "¿Experimentaré mucho dolor después de la operación?",
     answer:
-      "Es normal sentir molestias, inflamación y pesadez en los primeros días. Sin embargo, te proporcionaremos un esquema de analgésicos potente y personalizado para que tu recuperación sea lo más cómoda y asintomática posible.",
+      "Es normal sentir molestias, inflamación y pesadez durante los primeros días. Sin embargo, te proporcionaremos un esquema de analgésicos potente y personalizado para que tu recuperación sea lo más cómoda y libre de síntomas posible.",
   },
   {
     category: "post-cirugía",
     question: "¿Cuándo podré bañarme normalmente?",
     answer:
-      "Por regla general, autorizamos el baño completo (ducha rápida con agua tibia y jabón neutro) a partir del tercer o cuarto día postoperatorio, dependiendo de tu evolución. El equipo de enfermería te indicará los cuidados para tus incisiones.",
+      "Por regla general, autorizamos el baño completo desde el momento en que egresas del hospital. El baño debe ser diario, ya que es necesario realizar el cambio de faja y curación de la herida.",
   },
   {
     category: "post-cirugía",
     question: "¿Cómo es el seguimiento médico tras ser dada de alta?",
     answer:
-      "El seguimiento es estrecho y cercano. Tendrás revisiones presenciales periódicas (generalmente al día siguiente, a la semana, 15 días, al mes y a los 3 meses) para retirar puntos, monitorear la cicatrización y asegurar un resultado óptimo.",
+      "El seguimiento es estrecho y cercano. Tendrás revisiones presenciales periódicas (generalmente, la primera cita de revisión es a los 8 días de haber egresado del hospital) para retirar puntos, monitorear la cicatrización y asegurar un resultado óptimo.",
   },
   {
     category: "casarecuperacion",
     question: "¿Tienen casa de recuperación?",
     answer:
-      "Sí, contamos con una exclusiva casa de recuperación diseñada especialmente para tu confort postoperatorio, equipada con todas las comodidades y atención profesional 24/7.",
+      "Sí, contamos con una exclusiva casa de recuperación diseñada especialmente para tu confort postoperatorio, equipada con todas las comodidades y atención profesional 24/7. Desde tu llegada a la ciudad, contamos con transporte para ir por ti al aeropuerto y trasladarte directamente a la casa de recuperación. Nosotros nos haremos cargo de todo durante tu estancia para que no tengas ninguna preocupación.",
   },
   {
     category: "casarecuperacion",
     question: "¿Qué incluye la estancia en la casa de recuperación?",
     answer:
-      "Nuestra estancia incluye hospedaje premium, alimentación balanceada especializada, asistencia de enfermería 24 horas, lavandería básica y traslado a tus consultas de revisión.",
+      "Nuestra estancia incluye hospedaje premium, transporte (aeropuerto, citas médicas, hospital y spa), alimentación balanceada especializada, asistencia de enfermería 24 horas y área de lavandería.",
   },
   {
     category: "casarecuperacion",
     question: "¿Puedo recibir visitas durante mi estancia en la casa de recuperación?",
     answer:
-      "Sí, las visitas están permitidas, pero sugerimos limitarlas en tiempo y número de personas durante los primeros días para asegurar tu máximo descanso y evitar riesgo de infecciones cruzadas.",
+      "No se permiten visitas generales, pero tienes derecho a tener un acompañante mayor de edad contigo 24/7 durante tu estancia, quien se alojará en tu misma habitación.",
   },
   {
     category: "casarecuperacion",
     question: "¿Cuántos días se recomienda permanecer en la casa postoperatoria?",
     answer:
-      "Recomendamos una estancia mínima de 3 a 5 días, que son los días críticos donde necesitas mayor apoyo con tus drenajes, baño y traslados. Algunos pacientes foráneos optan por quedarse de 7 a 10 días o más.",
+      "Recomendamos una estancia mínima de 7 días, ya que son los días críticos donde necesitas mayor apoyo previo al retiro de puntos y drenajes, así como ayuda con tu baño, curaciones, colocación de faja y traslados. Algunos pacientes foráneos optan por quedarse de 15 a 20 días en promedio.",
   },
   {
     category: "casarecuperacion",
     question: "¿Cuentan con dietas especiales o para restricciones alimenticias?",
     answer:
-      "Por supuesto. Nuestro equipo de nutrición adapta el plan alimenticio antiinflamatorio a tus necesidades y preferencias sin comprometer los nutrientes esenciales que tu cuerpo necesita para sanar.",
+      "Por supuesto. Nuestro equipo de nutrición adapta el plan alimenticio antiinflamatorio a tus necesidades y preferencias, sin comprometer los nutrientes esenciales que tu cuerpo necesita para sanar.",
   },
   {
     category: "fajas",
@@ -225,7 +225,7 @@ const faqs = [
     category: "directorio",
     question: "¿Dónde me recomiendan realizar mis estudios preoperatorios para que sean confiables?",
     answer:
-      "Para mayor certeza en tus resultados, contamos con un directorio de laboratorios y centros de imagenología de alta confianza que sugerimos a nuestros pacientes, algunos de los cuales ofrecen ventajas o tarifas preferenciales si mencionas que vienes de nuestra parte.",
+      "Para mayor certeza en tus resultados, contamos con un directorio de laboratorios y centros de imagenología de alta confianza que sugerimos a nuestros pacientes. Algunos de ellos ofrecen ventajas o tarifas preferenciales si mencionas que vas de nuestra parte.",
   },
   {
     category: "directorio",
@@ -237,49 +237,49 @@ const faqs = [
     category: "directorio",
     question: "¿Los estudios de laboratorio tienen fecha de caducidad para la cirugía?",
     answer:
-      "Sí, los exámenes preoperatorios no deben tener una antigüedad mayor a 15-20 días respecto a la fecha de tu operación para que reflejen tu estado de salud actual de forma precisa.",
+      "Sí, los exámenes preoperatorios no deben tener una antigüedad mayor a 3 meses respecto a la fecha de tu operación, garantizando así que reflejen tu estado de salud actual de forma precisa.",
   },
   {
     category: "directorio",
     question: "¿Cuentan con algún servicio de enfermería a domicilio en su directorio?",
     answer:
-      "Sí, tenemos alianzas con agencias de enfermeras certificadas que pueden asistir a tu domicilio u hotel para apoyarte con tu cuidado, baños y medicamentos si decides no quedarte en la casa de recuperación.",
+      "No, pero nuestro propio equipo de enfermeras puede acudir a tu domicilio para apoyarte con el baño, curaciones y la colocación de tu faja a un costo razonable.",
   },
   {
     category: "directorio",
     question: "¿Qué pasa si mis estudios de laboratorio preoperatorios tienen resultados anormales?",
     answer:
-      "Nuestro equipo médico revisará detalladamente los estudios. De encontrar alteraciones, te pediremos ser valorada por un especialista (como un médico internista o hematólogo) quien deberá emitir una carta de autorización para proceder, garantizando tu seguridad al 100%.",
+      "Dependiendo de los resultados, el equipo médico determinará cómo proceder. Si el hallazgo es menor (como una infección leve o algo fácil de tratar), te emitirán una receta médica para que adquieras el tratamiento en farmacia, buscando que puedas operarte en tu fecha programada.<br><br>Otra opción es derivarte con un especialista de nuestro directorio de médicos interconsultantes, quien revisará detalladamente los estudios. De encontrar alteraciones significativas, emitirá un diagnóstico autorizando proceder con la cirugía bajo ciertos cuidados, o bien, indicará la suspensión temporal de la misma e iniciará un tratamiento hasta que te encuentres en condiciones favorables de salud. Todo esto es siempre para garantizar tu seguridad al 100%.",
   },
   {
     category: "pagos",
     question: "¿Cuáles son las formas de pago?",
     answer:
-      "Aceptamos efectivo, transferencia bancaria, y tarjetas de crédito/débito. También contamos con opciones de financiamiento con instituciones aliadas.",
+      "Aceptamos pagos en efectivo en pesos mexicanos y dólares (si la cotización es en pesos, el dólar se toma al tipo de cambio del día, o viceversa), transferencias bancarias, tarjetas de crédito y débito (de lunes a jueves), depósitos en efectivo, pagos por Zelle, enlaces de pago en línea y transferencias internacionales con código SWIFT. También contamos con opciones de financiamiento a través de instituciones aliadas.<br><br><span style=\"color: var(--accent); font-weight: 600;\">Nota: No aceptamos Western Union, PayPal, cheques, Xoom ni Remitly.</span>",
   },
   {
     category: "pagos",
     question: "¿Puedo pagar a meses sin intereses?",
     answer:
-      "Sí, contamos con promociones de meses sin intereses con tarjetas participantes. Consulta las promociones vigentes con nuestro equipo de ventas.",
+      "Por el momento, no contamos con esquemas de pago a meses sin intereses.",
   },
   {
     category: "pagos",
     question: "¿Se requiere un pago inicial para apartar la fecha de cirugía?",
     answer:
-      "Sí, solicitamos un anticipo mínimo (establecido en tu presupuesto) para asegurar tu fecha de quirófano y programación con el hospital y anestesiólogo.",
+      "Sí, solicitamos un anticipo para asegurar tu fecha de cirugía y, de este modo, coordinar la programación con el personal del hospital y el anestesiólogo.",
   },
   {
     category: "pagos",
     question: "¿Cuándo debo liquidar el total de mi procedimiento?",
     answer:
-      "El saldo total de tu paquete quirúrgico debe estar completamente liquidado al menos 7 días antes de la fecha agendada para tu intervención, para garantizar toda la logística de tu cirugía.",
+      "El saldo total de la cirugía debe ser liquidado directamente a Niuser, a más tardar dos semanas antes de la fecha programada para tu intervención.",
   },
   {
     category: "pagos",
     question: "¿Qué sucede si necesito cancelar mi cirugía después de haber dado el apartado?",
     answer:
-      "Si la cancelación se debe a motivos médicos comprobables no previstos, podemos reagendar sin problema. En caso de cancelación por motivos personales, nuestras políticas aplican retenciones por los gastos administrativos y de reservación ya efectuados con el hospital.",
+      "Si la cancelación se debe a motivos médicos comprobables y no previstos, podemos reagendar sin problema o, si lo prefieres, realizar la devolución del anticipo. No obstante, en caso de cancelación por motivos personales aislados a temas médicos, nuestras políticas estipulan retenciones correspondientes a gastos administrativos.",
   },
 ];
 
@@ -375,7 +375,13 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Initial Render
-  renderFAQs();
+  // Check if we are on the FAQ page without "all" category
+  const activeNav = document.querySelector(".faq-nav-item.active");
+  if (activeNav) {
+    renderFAQs(activeNav.dataset.category);
+  } else {
+    renderFAQs();
+  }
 
   // Modal Close Logic
   const closeBtns = document.querySelectorAll(".modal-close");
